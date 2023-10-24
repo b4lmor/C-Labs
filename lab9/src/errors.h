@@ -1,0 +1,17 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+enum ErrorCodes {
+    READ_ERROR = 101,
+    MEMORY_ALLOCATION_ERROR,
+    INDEX_ERROR,
+    EMPTY_HEAP_EXTRACTION,
+
+    BAD_LENGTH = 301,
+    BAD_NUMBER_OF_VERTICES,
+    BAD_NUMBER_OF_EDGES,
+    BAD_NUMBER_OF_LINES,
+    BAD_VERTEX,
+};
+
+#endif
